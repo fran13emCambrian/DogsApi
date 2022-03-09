@@ -16,6 +16,9 @@
 		A849162827B6F128001E2765 /* DogApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849162727B6F128001E2765 /* DogApiTests.swift */; };
 		A849163227B6F128001E2765 /* DogApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849163127B6F128001E2765 /* DogApiUITests.swift */; };
 		A849163427B6F128001E2765 /* DogApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849163327B6F128001E2765 /* DogApiUITestsLaunchTests.swift */; };
+		A849164127B9D37E001E2765 /* DogAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849164027B9D37E001E2765 /* DogAPIHelper.swift */; };
+		A849164327B9DA9E001E2765 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849164227B9DA9E001E2765 /* Dog.swift */; };
+		A849164527BA0A9B001E2765 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849164427BA0A9B001E2765 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A849162D27B6F128001E2765 /* DogApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A849163127B6F128001E2765 /* DogApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApiUITests.swift; sourceTree = "<group>"; };
 		A849163327B6F128001E2765 /* DogApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A849164027B9D37E001E2765 /* DogAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPIHelper.swift; sourceTree = "<group>"; };
+		A849164227B9DA9E001E2765 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		A849164427BA0A9B001E2765 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A849161027B6F127001E2765 /* AppDelegate.swift */,
 				A849161227B6F127001E2765 /* SceneDelegate.swift */,
 				A849161427B6F127001E2765 /* ViewController.swift */,
+				A849164427BA0A9B001E2765 /* TableViewController.swift */,
+				A849164027B9D37E001E2765 /* DogAPIHelper.swift */,
+				A849164227B9DA9E001E2765 /* Dog.swift */,
 				A849161627B6F127001E2765 /* Main.storyboard */,
 				A849161927B6F128001E2765 /* Assets.xcassets */,
 				A849161B27B6F128001E2765 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A849161527B6F127001E2765 /* ViewController.swift in Sources */,
+				A849164527BA0A9B001E2765 /* TableViewController.swift in Sources */,
+				A849164127B9D37E001E2765 /* DogAPIHelper.swift in Sources */,
 				A849161127B6F127001E2765 /* AppDelegate.swift in Sources */,
+				A849164327B9DA9E001E2765 /* Dog.swift in Sources */,
 				A849161327B6F127001E2765 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
